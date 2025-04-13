@@ -4,5 +4,5 @@ def factorial(n):
 	else:
 		return n * (factorial(n-1))
 		
-result = factorial(7)
+result = factorial(int(input("Enter any number: ")))
 print(result)
